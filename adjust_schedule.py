@@ -48,7 +48,7 @@ for c in comb:
 
 
 
-# intermediate candidates by n_inconvenient
+# intermediate candidates by max join score
 df_intermediate_candidates = df_candidates[df_candidates["n"] == max_join_score]
 
 print("intermediate result")
